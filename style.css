@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Manrope:wght@200..800&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "Hanken Grotesk", sans-serif;
+  align-items: center;
+  height: 100vh;
+  background: #ffffff;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border-bottom-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+}
+
+.header h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.45px;
+  text-align: center;
+  color: #cac9ff;
+  margin: 24px;
+}
+
+.circle {
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(63, 33, 201, 0.641249) 35.88%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  width: 140px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-top: 24px;
+  padding: 25px 39px 22px;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #cac9ff;
+}
+
+.text {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.text h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  color: #cac9ff;
+  width: 260px;
+}
+
+.summary {
+  width: 78px;
+  margin-top: 24px;
+  color: #303b59;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: left;
+  display: block;
+}
+
+.summary-container {
+  width: 100%;
+  padding-left: 32px;
+}
+
+.scores {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 24px 30px 24px 30px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
